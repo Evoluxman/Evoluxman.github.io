@@ -1,0 +1,97 @@
+#main {
+  background-image: url("Images/Background/bg1.jpeg");
+  background-size:120%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bod {
+  text-align: left; 
+  color: black;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: #DBD8D1;
+  background-size: contain;
+  margin-left:15%;
+  margin-right:15%;
+  padding-left:0%;
+  padding-bottom: 30px;
+  padding-top: 5px;
+}
+.titl {
+  text-align:center;
+  color:white;
+  background-color: brown;
+  background-size:contain;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:20px;
+}
+
+h1,h2{
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
+
+h1,h2,p{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+h1.titl{
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+
+.law{
+  text-align: center; 
+  color: black;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: #DBD8D1;
+  background-size: contain;
+  margin-left:15%;
+  margin-right:15%;
+  padding-left:0%;
+}
+
+img{
+  max-width:50%;
+  max-height:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left:15%;
+  margin-right: 15%;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li.ref {
+background-color:rgb(190, 70, 70);
+}
+
+/* Change the link color to #111 (black) on hover */
+li a.top:hover {
+  background-color: #111;
+}

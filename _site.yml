@@ -1,0 +1,14 @@
+name: "template"
+title: "Evo's Guides"
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+base_url: https://Evoluxman.github.io
+collections:
+    posts:
+      share: [twitter, linkedin, facebook]
+output:
+  distill::distill_article:
+    css: styles.css
